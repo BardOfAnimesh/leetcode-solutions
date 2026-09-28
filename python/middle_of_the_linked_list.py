@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/middle-of-the-linked-list/
 # Synced by: LinkCode
-# Date: 9/28/2026, 11:30:45 PM
+# Date: 9/28/2026, 11:31:07 PM
 # ======================================
 
 
