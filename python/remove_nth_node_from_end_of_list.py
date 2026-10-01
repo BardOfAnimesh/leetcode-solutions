@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 # Synced by: LinkCode
-# Date: 10/1/2026, 6:59:19 PM
+# Date: 10/1/2026, 7:01:08 PM
 # ======================================
 
 
