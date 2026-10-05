@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/path-sum/
 # Synced by: LinkCode
-# Date: 10/5/2026, 10:42:43 PM
+# Date: 10/5/2026, 10:53:14 PM
 # ======================================
 
 
