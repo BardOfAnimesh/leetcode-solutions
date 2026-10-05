@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/score-of-parentheses/
 # Synced by: LinkCode
-# Date: 10/5/2026, 9:08:27 PM
+# Date: 10/5/2026, 9:08:29 PM
 # ======================================
 
 
