@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/remove-invalid-parentheses/
 # Synced by: LinkCode
-# Date: 10/8/2026, 12:18:58 AM
+# Date: 10/8/2026, 12:23:22 AM
 # ======================================
 
 
@@ -16,7 +16,7 @@ class Solution(object):
         balance=0
         extra_open=0
         extra_close=0
-        result=[]
+        result=set()
         curr_str=''
         index=0
         for i,ch in enumerate(s):
@@ -36,8 +36,7 @@ class Solution(object):
             
             if index==len(s):
                 if extra_open==0 and extra_close==0 and balance==0:
-                    if curr_str not in result:
-                        result.append(curr_str)
+                    result.add(curr_str)
                 return
             
             ch = s[index]
@@ -58,4 +57,4 @@ class Solution(object):
         #function ke dako
         backtrack(index, 0, extra_open, extra_close, curr_str)
 
-        return result
+        return list(result)
