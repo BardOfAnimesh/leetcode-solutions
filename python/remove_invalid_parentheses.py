@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/remove-invalid-parentheses/
 # Synced by: LinkCode
-# Date: 10/8/2026, 12:23:22 AM
+# Date: 10/8/2026, 12:23:43 AM
 # ======================================
 
 
