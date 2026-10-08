@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/longest-valid-parentheses/
 # Synced by: LinkCode
-# Date: 10/6/2026, 9:08:47 PM
+# Date: 10/8/2026, 11:11:28 PM
 # ======================================
 
 
