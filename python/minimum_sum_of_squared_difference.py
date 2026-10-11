@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/minimum-sum-of-squared-difference/
 # Synced by: LinkCode
-# Date: 10/12/2026, 12:25:50 AM
+# Date: 10/12/2026, 12:30:58 AM
 # ======================================
 
 
@@ -55,9 +55,21 @@ class Solution(object):
                 tally[d] = 0
         
         leftover = K - spent
-        if leftover > 0 and best_mid > 0:
-            drop_count=min(leftover, tally[best_mid])
-            tally[best_mid]-=drop_count
-            tally[best_mid - 1]+=drop_count
+        current_tier = best_mid
+        while leftover > 0 and current_tier > 0:
+            available_elements = tally[current_tier]
+            
+            if available_elements == 0:
+                current_tier -= 1
+                continue
+
+            drop_count = min(leftover, available_elements)
+            
+            
+            tally[current_tier] -= drop_count
+            tally[current_tier - 1] += drop_count
+            leftover -= drop_count
+            if tally[current_tier] == 0:
+                current_tier -= 1
         
         return sum(d * d * count for d, count in tally.items())
