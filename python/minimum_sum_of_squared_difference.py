@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/minimum-sum-of-squared-difference/
 # Synced by: LinkCode
-# Date: 10/12/2026, 12:04:33 AM
+# Date: 10/12/2026, 12:25:50 AM
 # ======================================
 
 
