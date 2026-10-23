@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 # Synced by: LinkCode
-# Date: 10/23/2026, 8:41:46 PM
+# Date: 10/23/2026, 8:46:30 PM
 # ======================================
 
 
@@ -24,14 +24,8 @@ class Solution(object):
         """
         if not root or root==p or root==q:
             return root
-
-        left=self.lowestCommonAncestor(root.left,p,q)
-        right=self.lowestCommonAncestor(root.right,p,q)
-
-        if left and right:
-            return root
-        elif left or right:
-            if left:
-                return left
-            else:
-                return right
+        if p.val<root.val and q.val<root.val:
+            return self.lowestCommonAncestor(root.left,p,q)
+        if p.val>root.val and q.val>root.val:
+            return self.lowestCommonAncestor(root.right,p,q)
+        return root#it is for if q and p are to left or righ or vice versa of a node ultimately that node is the lac or if the node is equal to p or q we directly get root=lac
