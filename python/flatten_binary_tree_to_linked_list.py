@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 # Synced by: LinkCode
-# Date: 10/29/2026, 8:41:22 PM
+# Date: 10/31/2026, 1:38:47 AM
 # ======================================
 
 
