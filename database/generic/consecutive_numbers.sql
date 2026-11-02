@@ -3,7 +3,7 @@
 -- Language: SQL (generic)
 -- Link: https://leetcode.com/problems/consecutive-numbers/
 -- Synced by: LinkCode
--- Date: 11/2/2026, 10:29:24 PM
+-- Date: 11/2/2026, 10:33:46 PM
 -- ======================================
 
 
@@ -11,8 +11,8 @@
 with orderlogs as(
     select 
     num,
-    lag(num,1) over (order by id) as next_num1,
-    lag(num,2) over (order by id) as next_num2
+    lead(num,1) over (order by id) as next_num1,
+    lead(num,2) over (order by id) as next_num2
     from logs
 )
 
