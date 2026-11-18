@@ -3,7 +3,7 @@
 -- Language: SQL (generic)
 -- Link: https://leetcode.com/problems/department-top-three-salaries/
 -- Synced by: LinkCode
--- Date: 11/15/2026, 11:57:09 PM
+-- Date: 11/18/2026, 10:38:22 PM
 -- ======================================
 
 
