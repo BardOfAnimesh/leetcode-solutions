@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/permutations/
 # Synced by: LinkCode
-# Date: 11/15/2026, 2:13:38 AM
+# Date: 11/19/2026, 10:41:48 PM
 # ======================================
 
 
@@ -27,4 +27,3 @@ class Solution(object):
                 path.pop()
         recurr_ans(nums)
         return final_res
-
