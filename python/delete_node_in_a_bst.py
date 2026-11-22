@@ -3,7 +3,7 @@
 # Language: python
 # Link: https://leetcode.com/problems/delete-node-in-a-bst/
 # Synced by: LinkCode
-# Date: 11/22/2026, 9:50:40 PM
+# Date: 11/22/2026, 9:53:45 PM
 # ======================================
 
 
@@ -30,7 +30,7 @@ class Solution(object):
         elif key>root.val:
             root.right=self.deleteNode(root.right, key)
 
-        else:
+        if root.val==key:
             if not root.left:
                 return root.right
 
