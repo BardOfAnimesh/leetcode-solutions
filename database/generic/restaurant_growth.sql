@@ -3,7 +3,7 @@
 -- Language: SQL (generic)
 -- Link: https://leetcode.com/problems/restaurant-growth/
 -- Synced by: LinkCode
--- Date: 11/25/2026, 12:50:14 AM
+-- Date: 11/25/2026, 12:51:19 AM
 -- ======================================
 
 
